@@ -129,7 +129,7 @@ export default function AboutPage() {
         </div>
       </section>
       
-      {/* Stats Section */}
+      {/* Stats Section
       <section className="py-16 px-4 sm:px-8 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -151,7 +151,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* Our Story Section */}
       <section className="py-20 px-4 sm:px-8">

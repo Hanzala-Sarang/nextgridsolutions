@@ -36,10 +36,7 @@ export default function Navbar() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-4",
-        scrolled
-          ? "bg-background/80 backdrop-blur-md shadow-sm"
-          : "bg-transparent"
+        "fixed top-4 left-4 right-4 z-50 transition-all duration-300 px-6 py-4 rounded-2xl border border-black shadow-lg bg-white"
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -49,8 +46,8 @@ export default function Navbar() {
             <Image
               src="/logo.png"
               alt="NextGrid Solutions"
-              width={180}
-              height={180}
+              width={160}
+              height={160}
             />
           </div>
         </Link>
@@ -63,9 +60,7 @@ export default function Navbar() {
               href={item.href}
               className={cn(
                 "text-base font-medium transition-colors hover:text-primary",
-                pathname === item.href
-                  ? "text-primary"
-                  : "text-foreground/80"
+                pathname === item.href ? "text-primary" : "text-foreground/80"
               )}
             >
               {item.label}
@@ -84,11 +79,7 @@ export default function Navbar() {
             aria-label={isOpen ? "Close menu" : "Open menu"}
             className="relative z-50"
           >
-            {isOpen ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6" />
-            )}
+            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
 
@@ -96,34 +87,32 @@ export default function Navbar() {
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              initial={{ opacity: 0, x: "100%" }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: "100%" }}
+              initial={{ x: "100%", opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: "100%", opacity: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
-              className="fixed inset-0 z-40 bg-background md:hidden"
+              className="fixed top-4 bottom-4 left-4 right-4 z-40 bg-white rounded-2xl border border-black shadow-lg flex flex-col justify-center items-center space-y-6 px-6 py-8"
             >
-              <div className="flex flex-col h-full justify-center items-center gap-8 p-6">
-                {navItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className={cn(
-                      "text-xl font-medium transition-colors hover:text-primary",
-                      pathname === item.href
-                        ? "text-primary"
-                        : "text-foreground/80"
-                    )}
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-                <Button asChild className="mt-4">
-                  <Link href="/connect" onClick={() => setIsOpen(false)}>
-                    Contact Us
-                  </Link>
-                </Button>
-              </div>
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={cn(
+                    "text-xl font-medium transition-colors hover:text-primary",
+                    pathname === item.href
+                      ? "text-primary"
+                      : "text-foreground/80"
+                  )}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              ))}
+              <Button asChild className="mt-4">
+                <Link href="/connect" onClick={() => setIsOpen(false)}>
+                  Contact Us
+                </Link>
+              </Button>
             </motion.div>
           )}
         </AnimatePresence>
