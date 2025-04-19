@@ -84,7 +84,24 @@ export default function Hero({
               )}
             </motion.div>
           </motion.div>
-
+          {/* Guy with Laptop Image */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="flex justify-center items-center"
+          >
+            <div className="relative w-full max-w-md h-auto">
+              <Image
+                src="/hero.jpg" // ✅ Replace with your actual image path in public folder
+                alt="Guy with laptop"
+                width={500}
+                height={500}
+                className="w-full h-auto object-contain rounded-xl shadow-lg"
+                priority
+              />
+            </div>
+          </motion.div>
           {/* Floating graphics/illustrations - could be added here for visual appeal */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}

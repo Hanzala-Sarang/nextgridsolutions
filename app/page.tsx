@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
-import TestimonialCard from "@/components/TestimonialCard";
+// import TestimonialCard from "@/components/TestimonialCard";
 
 export default function Home() {
   const fadeIn = {
@@ -211,7 +211,7 @@ export default function Home() {
         </div>
       </section>
       
-      {/* Testimonials Section */}
+      {/* Testimonials Section
       <section className="py-20 px-4 sm:px-8 bg-gray-50 dark:bg-gray-900">
         <div className="max-w-7xl mx-auto">
           <motion.div 
@@ -246,7 +246,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-8 bg-primary text-white">

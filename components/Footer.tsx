@@ -33,7 +33,7 @@ export default function Footer() {
               <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
               </Link>
-              <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors">
+              <Link href="https://www.instagram.com/nextgrid.solutions?igsh=ZTAyMTZsN2lyZnps " target="_blank" rel="noopener noreferrer" className="text-foreground/70 hover:text-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </Link>
             </div>
@@ -120,19 +120,23 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-primary shrink-0 mt-0.5" />
                 <span className="text-muted-foreground">
-                  123 Innovation Street, Tech City, CA 94103, USA
+                  Mumbai India 400043
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 text-primary shrink-0" />
-                <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:9321581121" className="text-muted-foreground hover:text-primary transition-colors">
+                  9321581121
+                </a>
+                <p>&nbsp;/&nbsp;</p>
+                <a href="tel:9664245743" className="text-muted-foreground hover:text-primary transition-colors">
+                  9664245743
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-primary shrink-0" />
                 <a href="mailto:info@nextgridsolutions.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  info@nextgridsolutions.com
+                  nextgrid.solutions@gmail.com
                 </a>
               </li>
             </ul>

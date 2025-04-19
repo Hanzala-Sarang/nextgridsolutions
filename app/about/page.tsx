@@ -105,7 +105,7 @@ export default function AboutPage() {
                 At NextGrid Solutions, we're passionate about leveraging technology to solve complex business challenges and drive digital transformation.
               </p>
               <p className="mb-6">
-                Founded in 2015, our team of dedicated professionals combines technical expertise with creative vision to deliver exceptional digital experiences and IT solutions for businesses of all sizes.
+                our team of dedicated professionals combines technical expertise with creative vision to deliver exceptional digital experiences and IT solutions for businesses of all sizes.
               </p>
               <p>
                 Our mission is to empower organizations through innovative technology solutions that enhance efficiency, drive growth, and create meaningful connections with their audiences.
@@ -181,10 +181,10 @@ export default function AboutPage() {
               <div className="order-2 lg:order-1">
                 <h3 className="text-2xl font-semibold mb-4">The Beginning</h3>
                 <p className="mb-4">
-                  NextGrid Solutions was founded in 2015 by a team of tech enthusiasts with a shared vision of helping businesses harness the power of digital technology. What started as a small web development agency quickly expanded as we gained recognition for our innovative approaches and commitment to client success.
+                  NextGrid Solutions was founded by a team of tech enthusiasts with a shared vision of helping businesses harness the power of digital technology. What started as a small web development agency quickly expanded as we gained recognition for our innovative approaches and commitment to client success.
                 </p>
                 <p>
-                  Our founder, Alex Johnson, recognized a gap in the market for tech solutions that were both cutting-edge and accessible to businesses of all sizes. This insight became the foundation of our company's mission and values.
+                  Our founders recognized a gap in the market for tech solutions that were both cutting-edge and accessible to businesses of all sizes. This insight became the foundation of our company's mission and values.
                 </p>
               </div>
               <div className="order-1 lg:order-2 relative h-80 rounded-lg overflow-hidden">
@@ -215,10 +215,10 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-2xl font-semibold mb-4">Growth & Expansion</h3>
                 <p className="mb-4">
-                  By 2018, we had expanded our services beyond web development to include app development, digital marketing, and data analytics. This growth allowed us to serve clients across various industries, from startups to enterprise-level organizations.
+                  We had expanded our services beyond web development to include app development, digital marketing, and data analytics. This growth allowed us to serve clients across various industries, from startups to enterprise-level organizations.
                 </p>
                 <p>
-                  Our team grew from 5 to 50+ specialists, each bringing unique expertise and perspective to our projects. We opened offices in multiple cities and established partnerships with leading technology providers to enhance our service offerings.
+                  Our each bringing unique expertise and perspective to our projects. We opened offices in multiple cities and established partnerships with leading technology providers to enhance our service offerings.
                 </p>
               </div>
             </motion.div>
@@ -233,7 +233,7 @@ export default function AboutPage() {
               <div className="order-2 lg:order-1">
                 <h3 className="text-2xl font-semibold mb-4">Today & Tomorrow</h3>
                 <p className="mb-4">
-                  Today, NextGrid Solutions stands as a trusted partner for businesses seeking comprehensive IT solutions. We've worked with over 200 clients across diverse sectors, helping them navigate the complexities of digital transformation.
+                  Today, NextGrid Solutions stands as a trusted partner for businesses seeking comprehensive IT solutions. We've worked with over clients across diverse sectors, helping them navigate the complexities of digital transformation.
                 </p>
                 <p>
                   Looking to the future, we remain committed to innovation and excellence. We're investing in emerging technologies like AI, blockchain, and IoT to provide our clients with solutions that not only meet their current needs but also prepare them for future opportunities and challenges.
@@ -294,7 +294,7 @@ export default function AboutPage() {
         </div>
       </section>
       
-      {/* Our Team Section */}
+      {/* Our Team Section
       <section className="py-20 px-4 sm:px-8">
         <div className="max-w-7xl mx-auto">
           <motion.div 
@@ -338,7 +338,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-8 bg-primary text-white">

@@ -10,22 +10,22 @@ export default function ConnectPage() {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Our Office",
-      details: "123 Innovation Street, Tech City, CA 94103, USA"
+      details: "Mumbai India 400043"
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email Us",
-      details: "info@nextgridsolutions.com"
+      details: "nextgrid.solutions@gmail.com"
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Call Us",
-      details: "+1 (234) 567-890"
+      details: "9321581121 / 9664245743"
     },
     {
       icon: <Clock className="h-6 w-6" />,
       title: "Business Hours",
-      details: "Monday-Friday: 9AM-6PM EST"
+      details: "Monday-Saturday: 9AM-6PM "
     }
   ];
 
@@ -104,7 +104,7 @@ export default function ConnectPage() {
               className="rounded-lg overflow-hidden h-[400px] lg:h-auto"
             >
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.50764017401!3d37.75781499657866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1651234567890!5m2!1sen!2s" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160994738!2d72.74109995!3d19.0821978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63b0f1c5d3f%3A0x1e6f1c5d3f1c5d3f!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1610000000000!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
@@ -174,7 +174,7 @@ export default function ConnectPage() {
               <p className="opacity-90">Schedule a free consultation with our experts today.</p>
             </div>
             <motion.a 
-              href="mailto:info@nextgridsolutions.com"
+              href="mailto:nextgrid.solutions@gmail.com"
               whileHover={{ scale: 1.05 }}
               className="bg-white text-primary px-6 py-3 rounded-lg font-medium flex items-center"
             >
