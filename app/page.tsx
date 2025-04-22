@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, Code, Smartphone, Search, BarChart3, PenTool, Mouse, Zap } from "lucide-react";
 import { motion } from "framer-motion";
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
+import GiveawayModal from "@/components/GiveawayModal";
 // import TestimonialCard from "@/components/TestimonialCard";
 
 export default function Home() {
@@ -81,6 +81,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col">
+      <GiveawayModal />            
       <Hero 
         title={<>Transforming Ideas into <span className="text-primary">Digital Reality</span></>}
         subtitle="We build innovative solutions for businesses looking to thrive in the digital landscape."
